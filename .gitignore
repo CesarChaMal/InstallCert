@@ -15,7 +15,8 @@ gen
 Obj
 target
 proguard
-
+nbproject
+captures
 
 # dependencies
 node_modules
@@ -23,25 +24,26 @@ bower_components
 .sass-cache
 
 # IDEs and editors
-*.project
-*.classpath
-*.settings
-*.springBeans
-*.idea
-*.iml
-*.ipr
-*.iws
-*.c9
-*.launch
-*.sublime-workspace
-*.vscode
+.project
+.classpath
+.settings
+.springBeans
+.idea
+.iml
+.ipr
+.iws
+.c9
+.launch
+.sublime-workspace
+.vscode
+.externalNativeBuild
+import-summary.txt
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
 # misc
-.sass-cache
 connect.lock
 coverage
 libpeerconnection.log
@@ -50,6 +52,7 @@ yarn-error.log
 testem.log
 local.properties
 typings
+
 
 # System Files
 .DS_Store
@@ -69,13 +72,13 @@ Thumbs.db
 .tmp
 
 # Package Files #
-*.ear
-*.tar.gz
-*.rar
-*.cmd
-*.mvn
-*.gradle
-*.nupkg
+.ear
+.tar.gz
+.rar
+.cmd
+.mvn
+.gradle
+.nupkg
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
